@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>basic-portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
@@ -12,31 +13,35 @@
 					<h1> Andrew Burd </h1>
 				</div>
 				<nav>
-					<ul>
+					<ul id="topr">
 						<li><a href="index.html">About </a></li>
 						<li><a href="Portfolio.html">Portfolio </a></li>
 						<li><a href="contact.html">Contact </a></li>
 					</ul>	
 				</nav>	
 		</header>
-
+<div id="content">
 		<section>
 			<article id="showcase">
 				<h2>About Me</h2>
-				<img src="/Users/andrewburd/Desktop/Basic-Portfolio/assets/images/img_1130.jpeg" style="width: 128px; height: 144px;" >
-				<p>I am an aspiring web developer. I have worked in clinical research for all of my career and am interested in ways web applications can be used to bring people together and promote healthy behaviors </p>
+				<hr>
+				<p>
+				<img id="portrait" src="/Users/andrewburd/Desktop/Basic-Portfolio/assets/images/img_1130.jpeg">
+				I am an aspiring web developer. I have worked in clinical research for all of my career and am interested in ways web applications can be used to bring people together and promote healthy behaviors </p>
 			</article>
 		
 		
 			<article>
-				<aside id="sidebar">
-					<img src="./assets/images/linkedin.png">
-					<img src="./assets/images/github.png">
-					<img src="./assets/images/stackoverflow.png">
-				</aside>
+			<div id="sidebar">
+					<h3 id="connect"> Connect With Me </h3>
+					<hr>
+					<a href="https://www.linkedin.com/in/andrew-burd-16213037/"><img src="./assets/images/linkedin.png"> </a>
+					<a href="https://github.com/andrewburd"> <img src="./assets/images/github.png"> </a>
+					<a href="https://stackoverflow.com/users/8887325/andrew-burd?tab=profile"><img src="./assets/images/stackoverflow.png"></a>
+				</div>
 			</article>
 		</section>	
-		
+	</div>	
 		<footer>
 			<p> Copyright 2017 Andrew Burd </p>
 		</footer>				
